@@ -1,0 +1,50 @@
+.box-wrapper{
+    background-color: gray;
+    height: 500px;
+    border: 1px solid black;
+    width: 380px;
+    margin-top: 20px;
+}
+#root{
+display: flex;
+justify-content: center;
+margin-top:40px ;
+}
+.text-area{
+    width: 400px;
+   border: unset;
+   padding: 20px 0 20px 15px;
+  font-size: 30px;
+
+}
+
+
+input{
+    width: 350px;
+    text-align: right;
+    height: 50px;
+    margin-top: 20px;
+   
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;  
+    cursor: pointer; 
+    gap: 20px;
+}
+
+.grid-item{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+}
